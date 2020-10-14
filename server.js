@@ -33,7 +33,6 @@ const notes = [];
 
 fs.readFile();
 
-// API Routes
 app.get('/api/notes', function (req, res){
     return res.json(notes);
 });
